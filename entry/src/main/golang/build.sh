@@ -6,7 +6,7 @@ target="aarch64"  # 可选值：x86_64, aarch64
 outdir="arm64-v8a"  # 可选值：x86_64, arm64-v8a
 
 # 设置 OHOS_NATIVE_HOME
-OHOS_NATIVE_HOME="/Volumes/MacintoshHD2/Applications/DevEco-Studio.app/Contents/sdk/default/openharmony/native"
+OHOS_NATIVE_HOME="/Users/anshuo/Library/OpenHarmony/Sdk/12/native"
 
 # 基础编译标志
 BASE_FLAGS="-Wno-error --sysroot=$OHOS_NATIVE_HOME/sysroot -fdata-sections -D__MUSL__ -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -fPIC"
@@ -20,7 +20,7 @@ export CXX="$TOOLCHAIN/bin/clang++"
 export LD="$TOOLCHAIN/bin/clang"
 export CGO_AR="$TOOLCHAIN/bin/llvm-ar"
 export GOASM="$TOOLCHAIN/bin/llvm-as"
-export GOOS="android"
+export GOOS="linux"
 export GOARCH="$arch"
 export GOARM=""
 export CGO_ENABLED="1"

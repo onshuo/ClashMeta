@@ -1,4 +1,5 @@
 //go:build android && cmfa
+// +build android,cmfa
 
 package mmdb
 

@@ -5,26 +5,26 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "C:\\Users\\Administrator\\.ohos\\config\\default_ClashForHarmonyOS_q-uxniKdPOBKq7matO9Q3hj0GBqxKq_JGxl27ID_ZBo=.cer",
-          "storePassword": "0000001B23D730E31A06093012D45ABFF8F22382FD541949D3FC16E1E62D4E4447221D3FB891A5C32CADA4",
+          "certpath": "/Users/anshuo/.ohos/config/default_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.cer",
+          "storePassword": "0000001B3AC137E33F930D128180DC90A4250201FD4E0B2BC5661816B48C2D414C9BB020BBA8423FC61072",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B34B31A0E87B38235E97D96600AF1A965B66FA834AE1FED7A28C57F46BDC1E290DEC1522608425F",
-          "profile": "C:\\Users\\Administrator\\.ohos\\config\\default_ClashForHarmonyOS_q-uxniKdPOBKq7matO9Q3hj0GBqxKq_JGxl27ID_ZBo=.p7b",
+          "keyPassword": "0000001BC07EF16D8E9EB895301464390D85B2921526C80780E9FBED372313304874F0739FDD9021D901F1",
+          "profile": "/Users/anshuo/.ohos/config/default_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "C:\\Users\\Administrator\\.ohos\\config\\default_ClashForHarmonyOS_q-uxniKdPOBKq7matO9Q3hj0GBqxKq_JGxl27ID_ZBo=.p12"
+          "storeFile": "/Users/anshuo/.ohos/config/default_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.p12"
         }
       },
       {
         "name": "prod",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "G:/huawei/store/moonlight-prod.cer",
-          "storePassword": "000000185D63C3220F2C0AC705E5081DA763A930CBCB1CF0A6C3102F53CD8F6CB2618E2084892EFC",
-          "keyAlias": "Moonlight",
-          "keyPassword": "0000001856023A4392F20760E23BAA18293A5FB2877C02BA5D93116E7C2D68734CD99AD240C809FE",
-          "profile": "G:/huawei/store/clash testRelease.p7b",
+          "certpath": "/Users/anshuo/.ohos/config/prod_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.cer",
+          "storePassword": "0000001B728812B611D5D17FDF8CCBDC951A4657C41D604DF058FC0F78E32BCD15AE8C51FF3AC7EE16257E",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B15E3BB1FB32C71312CB0F3FDEAFC136FA654B460D8B6782251832813D5F40F970ABE7A3620771E",
+          "profile": "/Users/anshuo/.ohos/config/prod_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "G:/huawei/store/keystore.p12"
+          "storeFile": "/Users/anshuo/.ohos/config/prod_ClashMeta_PciXWfXQVq20qE4K-4KMlYNBMP0r5BIEegK7YE3qXNs=.p12"
         }
       }
     ],
